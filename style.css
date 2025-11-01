@@ -1,0 +1,271 @@
+body{
+    background-image: url(/src/Фон.svg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    width: 1495px;
+    height: 807px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width: 798px;
+    height: 151px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    gap: 90px;
+    margin: 0 20%;
+}
+
+.spanheader{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.logo img{
+    width: 202px;
+    height: 52px;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1001;
+}
+.ready-link {
+    text-decoration: none;
+    display: inline-block;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+.pryam {
+    width: 296px;
+    height: 70px;
+    transform: skew(-12deg);
+    background: rgba(255, 255, 255, 0.1); /* прозрачность */
+    backdrop-filter: blur(12px); /* эффект стекла */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pryam h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    transform: skew(12deg);
+    text-align: center;
+}
+
+.dva {
+    width: 274px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 0 10px;
+}
+
+.dva img {
+    height: 60px;
+    width: auto;
+}
+
+.dva .arrow {
+    width: 25px;
+    height: auto;
+    transform: translateY(1px);
+    transform: rotate(180deg);
+    filter: brightness(0) invert(1);
+    color: white;
+}
+
+.dva p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+
+span{
+    font-size: 13px;
+    font-style: bold;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.contant{
+    width: 900px;
+    height: 410px;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.side-image {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+    margin-top: -30px;
+    overflow: hidden;
+}
+.flexx{
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    
+
+}
+.small-images {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    z-index: 1000;
+}
+
+.small-images img {
+    max-width: 1000px;
+    margin: 850px -100px 0 0;
+    transform: scale(3);
+}
+.maindva{
+    background-image: url(/src/Frame\ 2.svg);
+    width: 1495px;
+    height: 826px;
+    backdrop-filter: blur(5px);
+}
+
+.maintri{
+    background-image: url(/src/Frame\ 3.svg);
+    width: 1495px;
+    height: 826px;
+}
+.mainfour{
+    background-image: url(/src/Frame\ 4.svg);
+    width: 1495px;
+    height: 826px;
+}
+.mainfive{
+    background-image: url(/src/Frame\ 5.svg);
+    width: 1495px;
+    height: 826px;
+}
+.mainsix{
+    background-image: url(/src/Frame\ 7.svg);
+    width: 1495px;
+    height: 826px;
+}
+.maintext{
+    padding-top: 300px;
+    padding-left: 21%;
+    width: 787px;
+    height: 76px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.maintext p{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: Light;
+    font-size: 26px;
+    letter-spacing: 39%;
+
+}
+
+
+
+/* 2 странрца */
+.box {
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.first {
+    width: 278px;
+    height: 262px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.first:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+}
+
+.first h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+}
+
+.first img {
+    width: 100px;
+    height: auto;
+    margin: 15px 0;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.6));
+    transition: filter 0.3s ease;
+}
+
+.first:hover img {
+    filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.first p {
+    font-size: 14px;
+    color: #e6e6e6;
+    margin-top: 10px;
+    line-height: 1.3em;
+}
