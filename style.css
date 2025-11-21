@@ -666,6 +666,27 @@ span{
     letter-spacing: 0.5px;
 }
 
+footer {
+    margin-top: -80px;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: #ccc;
+    font-size: 14px;
+}
+.info-footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.info-footer p {
+    color: #555353;
+    font-size: 14px;
+}
+
 /* Анимация для таймера */
 .time-unit {
     animation: gentlePulse 3s infinite;
