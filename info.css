@@ -157,7 +157,25 @@ body {
     color: #b3b3b3;
     font-size: 14px;
 }
-
+button a {
+    color: rgb(18, 12, 12);
+    text-decoration: none;
+}
+button {
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover {
+    background: rgba(255, 255, 255, 0.6);
+    opacity: 0.9;
+    transform: scale(1.1);
+}
 @media (max-width: 768px) {
     .info-header h1 {
         font-size: 32px;

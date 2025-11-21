@@ -142,7 +142,7 @@
     .box {
         flex-direction: column;
         align-items: center;
-        padding-top: 60px;
+        margin-top: 30px;
     }
     
     .first {
